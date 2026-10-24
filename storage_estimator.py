@@ -11,7 +11,7 @@ def main():
     num_files = int(input("Number of files: "))
     avg_size_mb = float(input("Average file size (MB): "))
     total_mb = estimate_storage_mb(num_files, avg_size_mb)
-    print("Total storage needed:", total_mb, "MB")
+    print(f"Total storage needed: {total_mb:.2f} MB")
 
 
 if __name__ == "__main__":
